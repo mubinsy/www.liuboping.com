@@ -35,3 +35,5 @@ python2 shadowsocksr/shadowsocks/local.py -s pub.liuboping.com -p 443 -l 1090 -k
 
 ssr://c2VydmVyIGhvc3Q6ODM4ODpvcmlnaW46YWVzLTI1Ni1jZmI6cGxhaW46TUEvP29iZnNwYXJhbT0mZ3JvdXA9Um5KbFpWTlRVaTF3ZFdKc2FXTQ
 ```
+## v2ray配置文件
+[https://github.com/lbp0200/www.liuboping.com/raw/master/v2ray_http.json](https://github.com/lbp0200/www.liuboping.com/raw/master/v2ray_http.json)
