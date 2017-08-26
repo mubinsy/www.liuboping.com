@@ -13,7 +13,7 @@
 ## shadowsocks地址
 ```
 #无混淆地址，Windows客户端因为目前不支持混淆，请使用此地址
-ss://YWVzLTI1Ni1nY206d3d3LmxpdWJvcGluZy5jb21AcHViLmxpdWJvcGluZy5jb206ODA=#www.liuboping.com
+ss://YWVzLTI1Ni1nY206d3d3LmxpdWJvcGluZy5jb21AcHViLmxpdWJvcGluZy5jb206ODA=
 
 #适用带http混淆插件的客户端，速度不快，请尝试安装混淆插件，适用此地址，速度可能会明显提升
 ss://YWVzLTI1Ni1nY206d3d3LmxpdWJvcGluZy5jb20@pub.liuboping.com:80?plugin=obfs-local%3Bobfs-host%3Dpub.liuboping.com%3Bobfs%3Dhttp#pub
