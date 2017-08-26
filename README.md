@@ -17,4 +17,7 @@ ss://YWVzLTI1Ni1nY206d3d3LmxpdWJvcGluZy5jb21AcHViLmxpdWJvcGluZy5jb206ODA=#www.li
 
 #适用带http混淆插件的客户端，速度不快，请尝试安装混淆插件，适用此地址，速度可能会明显提升
 ss://YWVzLTI1Ni1nY206d3d3LmxpdWJvcGluZy5jb20@pub.liuboping.com:80?plugin=obfs-local%3Bobfs-host%3Dpub.liuboping.com%3Bobfs%3Dhttp#pub
+
+#Linux
+ss-local -s pub.liuboping.com -p 80 -b 127.0.0.1 -l 1090 -m aes-256-gcm -k www.liuboping.com -t 300 --plugin obfs-local --plugin-opts "obfs=http;obfs-host=pub.liuboping.com"
 ```
