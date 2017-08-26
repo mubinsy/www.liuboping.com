@@ -21,3 +21,7 @@ ss://YWVzLTI1Ni1nY206d3d3LmxpdWJvcGluZy5jb20@pub.liuboping.com:80?plugin=obfs-lo
 #Linux
 ss-local -s pub.liuboping.com -p 80 -b 127.0.0.1 -l 1090 -m aes-256-gcm -k www.liuboping.com -t 300 --plugin obfs-local --plugin-opts "obfs=http;obfs-host=pub.liuboping.com"
 ```
+## shadowsocksr地址
+```
+python2 shadowsocksr/shadowsocks/local.py -s pub.liuboping.com -p 443 -l 1090 -k www.liuboping.com -m aes-128-ctr -O auth_aes128_md5 -o tls1.2_ticket_auth --fast-open
+```
