@@ -33,7 +33,7 @@ ss-local -s pub.liuboping.com -p 80 -b 127.0.0.1 -l 1090 -m aes-256-gcm -k www.l
 ```
 python2 shadowsocksr/shadowsocks/local.py -s pub.liuboping.com -p 443 -l 1090 -k www.liuboping.com -m aes-128-ctr -O auth_aes128_md5 -o tls1.2_ticket_auth --fast-open
 
-ssr://c2VydmVyIGhvc3Q6ODM4ODpvcmlnaW46YWVzLTI1Ni1jZmI6cGxhaW46TUEvP29iZnNwYXJhbT0mZ3JvdXA9Um5KbFpWTlRVaTF3ZFdKc2FXTQ
+ssr://cHViLmxpdWJvcGluZy5jb206NDQzOmF1dGhfYWVzMTI4X21kNTphZXMtMTI4LWN0cjp0bHMxLjJfdGlja2V0X2F1dGg6ZDNkM0xteHBkV0p2Y0dsdVp5NWpiMjAvP29iZnNwYXJhbT0
 ```
 ## v2ray配置文件
 [https://github.com/lbp0200/www.liuboping.com/raw/master/v2ray_http.json](https://github.com/lbp0200/www.liuboping.com/raw/master/v2ray_http.json)
